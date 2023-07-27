@@ -1,0 +1,97 @@
+body {
+    background-image: url("Background-tictactoe.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    vertical-align: center;
+}
+
+.container { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+    width: 100px;
+    height: 70px;
+    background-color: rgb(224, 142, 142);
+    transition: opacity 0.1s;
+    font-size: 35px;
+    border: 2px solid rgb(79, 69, 69);
+}
+
+button:active {
+    opacity: 0.5;
+    background-color:   rgb(161, 85, 85);
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.Tic-Box-Rows {
+    align-items: top;
+    display: flex;
+}
+
+
+.function-buttons {
+    margin-top: 80px;
+}
+
+.func-button-rest {
+    margin-left: -40px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px gray;
+    font-size: 15px;
+}
+
+.func-button-1 {
+    width: 70px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px gray;
+    font-size: 20px;
+    margin-left: 160px;
+}
+
+.func-button-2 {
+    width: 70px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px gray;
+    font-size: 20px;
+}
+
+.Single-play-button {
+    margin-left: -40px;
+    margin-top: 30px;
+    width: 155px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px gray;
+    font-size: 15px;
+}
+
+.MultiPlayer-button {
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 155px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px gray;
+    font-size: 15px;
+}
+
+
